@@ -9,6 +9,6 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 @Target({METHOD})
 @Retention(RUNTIME)
 public @interface TestSend {
-	
-	 String topic() default "/subscribe";
+
+	 String topic() default "/subscribe2";
 }
