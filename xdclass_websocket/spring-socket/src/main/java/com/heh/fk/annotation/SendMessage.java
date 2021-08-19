@@ -10,6 +10,6 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 @Retention(RUNTIME)
 public @interface SendMessage {
 
-    String topic() default "/subscribe";
+    String topic() default "/subscribe3";
 
 }
